@@ -29,10 +29,21 @@ def print_table(db):
     c.execute("SELECT * FROM sense_data")
     print(c.fetchall())
 
+def loop(pir_script):
+    while pir_script != 'Quit':
+        for second in minute:
+            if pir_script = "Motion Detected":
+                ir_value = 1
+            else:
+                ir_value = 0
+            insert_row('sensor_data.db', ir_value)
+        
+
 def main():
     create_table('sensor_data.db')
-    insert_row('sensor_data.db', 1)
-    print_table('sensor_data.db')
+    loop('sensor_module.py')
+#   insert_row('sensor_data.db', 1)
+#   print_table('sensor_data.db')
     
 main()    
     
