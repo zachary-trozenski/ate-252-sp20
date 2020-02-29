@@ -5,3 +5,4 @@ Shared repo for students to push code written during ATE-252 lab work in spring 
 Please list your name and the name of your branch below:
 
 * Matt Scott:  marosco
+  * Code for and photos of a working ultrasonic sensor setup. 
